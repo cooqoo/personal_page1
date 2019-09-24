@@ -1,0 +1,69 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+/* 連結到#pic內的img */
+#pic img{
+    width: 100%;
+}
+
+#card {
+    background-color: #333;
+    /* 寬度 */
+    width: 700px;
+    /* 邊框圓角 */
+    border-radius: 10px;
+    /* 內距 */
+    padding: 30px;
+    color: gray;
+    /* 顯示模式:格線 */
+    display: grid;
+    /* 格線模板欄位:欄位 */
+    /* 1fr 一個欄位 */
+    grid-template-columns:  1fr 1fr;
+    /* 格線間距 */
+    grid-gap: 30px;
+    /* 上 右 下 左 */
+    /* 只寫1個 = 全部一樣數值 */
+    /* 寫2個 100px 200 px = 上下100 左右200 */
+    /* 外距 */
+    margin: 200px auto 0 auto;
+    
+
+}
+/* em=*倍大 */
+#content h1 {
+    font-size: 3.5em;
+    display: inline;
+}
+
+#content #nickname {
+    font-size: 2em;
+    display: inline;
+    background-color: white;
+
+}
+
+#content #job {
+    font-size: 1.2em;
+    margin: 50px 0px 50px 0px;
+}
+
+#content h3 {
+    margin: 50px 0px 50px 0px;
+}
+
+#content p {
+    margin: 20px 0px 10px 0px;
+}
+
+#ww {
+    font-size: 100px;
+    margin: auto auto ;
+    color: rgba(0, 0, 0, 0.2);
+    text-align: center;
+    letter-spacing: 40px;
+    margin-top: 40px;
+    
+}
